@@ -32,7 +32,7 @@ div .box{
   top:10%;
   left: 20px;
   height: 200px;
-  width: 400px;
+  width: 300px;
   padding: 20px;
 }
 
@@ -40,7 +40,7 @@ div .box{
     background-color: white;
   position: fixed;
   top: 15%;
-  right:  600px;
+  right:  550px;
   height: 150px;
   width: 400px;
 }
@@ -49,7 +49,7 @@ div .box{
  position: fixed;
  top: 50%;
  left: 20px;
- right:  600px;
+ right: 450px;
 }
 
 .btnOff{
@@ -87,7 +87,7 @@ textarea {
 .new-style{
   margin-top: 40%;
   height: auto;
-  width: 860px;
+  width: 760px;
   margin: 10px 0;
   margin-bottom: 10px;
   clear:both;
