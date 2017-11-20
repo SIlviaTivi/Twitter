@@ -29,7 +29,7 @@ div .box{
 .box-static{
   background-color: white;
   position: fixed;
-  top:5%;
+  top:10%;
   left: 20px;
   height: 200px;
   width: 400px;
@@ -39,15 +39,17 @@ div .box{
 .box-tweet{
     background-color: white;
   position: fixed;
-  top:15%;
-  right:  10%;
-  height: 200px;
+  top: 15%;
+  right:  600px;
+  height: 150px;
   width: 400px;
 }
 
 .box-create{
  position: fixed;
  top: 50%;
+ left: 20px;
+ right:  600px;
 }
 
 .btnOff{
@@ -85,8 +87,8 @@ textarea {
 .new-style{
   margin-top: 40%;
   height: auto;
-  width: 700px;
-  margin: 10px;
+  width: 860px;
+  margin: 10px 0;
   margin-bottom: 10px;
   clear:both;
   border-radius: 20px;

@@ -14,7 +14,7 @@ function countLetters(){
     spanCount.textContent = showCount;
   }
   if (valueCountLength > 0 && valueCountLength < 119) {
-     spanCount.style.color = 'green';
+     spanCount.style.color = 'rgb(68, 48, 73)';
     } else if (valueCountLength >= 120 && valueCountLength <= 130) {
       spanCount.style.color = "orange";
     } else if (valueCountLength > 130 && valueCountLength <= 140) {
@@ -42,11 +42,25 @@ function getData() {
     var newDiv = document.createElement('div');
     <!--data y estilo en nuevo div-->
     createTweet.appendChild(newDiv);
-    newDiv.textContent = dataValue;
+    newDiv.textContent = time() + ' |  ' +dataValue;
     newDiv.classList.add('new-style');
     <!--limpiar data-->
     data.value = "";
 
+}
+
+function time() {
+	var getTime = new Date();
+	var hours = getTime.getHours();
+	var minutes = getTime.getMinutes();
+  var time;
+
+		if (hours >= 12 && hours <= 24) {
+		time = hours + ':' + minutes  + ' PM';
+	} else {
+		time = hours + ':' + minutes  + ' AM';
+	}
+	return time;
 }
 
 window.onload = function() {
