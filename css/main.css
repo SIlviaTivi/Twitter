@@ -1,0 +1,95 @@
+body{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+header{
+  background: rgb(68, 48, 73);
+  color:white;
+  font-size: 40px;
+  position: fixed;
+  padding-top:1%;
+  text-align: center;
+  width: 100%;
+}
+
+img{
+  height: 900px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+div .box{
+  display: inline-block;
+}
+
+.box-static{
+  background-color: white;
+  position: fixed;
+  top:5%;
+  left: 20px;
+  height: 200px;
+  width: 400px;
+  padding: 20px;
+}
+
+.box-tweet{
+    background-color: white;
+  position: fixed;
+  top:15%;
+  right:  10%;
+  height: 200px;
+  width: 400px;
+}
+
+.box-create{
+ position: fixed;
+ top: 50%;
+}
+
+.btnOff{
+  color: black;
+  background-color:
+}
+
+.countColor{
+  color: rgb(30, 116, 205);
+}
+
+textarea {
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin: 0px;
+  resize: none;
+}
+
+
+#activeBtn {
+  border: 2px solid white;
+  background-color:  rgb(68, 48, 73);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: white;
+  font-weight: 700;
+  outline: 0;
+  display: inline-block;
+}
+
+.new-style{
+  margin-top: 40%;
+  height: auto;
+  width: 700px;
+  margin: 10px;
+  margin-bottom: 10px;
+  clear:both;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 2px gray;
+}
